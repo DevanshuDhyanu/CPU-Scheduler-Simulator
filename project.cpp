@@ -411,7 +411,7 @@ int main() {
             // sample data (demonstration)
             procs.clear();
             procs.emplace_back(1, 0, 8, 2);
-            procs.emplace_back(2, 1, 4, 1);
+            procs.emplace_back(2, 1, 4, 1);//sample data
             procs.emplace_back(3, 2, 9, 3);
             procs.emplace_back(4, 3, 5, 2);
             has_input = true;
@@ -452,5 +452,6 @@ int main() {
     }
     return 0;
 }
+
 
 
