@@ -105,9 +105,9 @@ void scheduler_FCFS(vector<Process> procs) {
     print_results(procs, gantt);
 }
 
-/* ---------------------------------------
-   SJF Non-preemptive (Shortest Job First)
-   --------------------------------------- */
+
+  // SJF Non-preemptive (Shortest Job First)
+   
 void scheduler_SJF_nonpreemptive(vector<Process> procs) {
     int n = procs.size();
     for (auto &p : procs) p.remaining = p.burst;
@@ -452,4 +452,5 @@ int main() {
     }
     return 0;
 }
+
 
